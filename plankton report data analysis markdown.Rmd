@@ -1,0 +1,41 @@
+---
+title: "Plankton report data"
+author: "Grace"
+date: "2024-10-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Plankton Report Data Analyses
+
+```{r packages}
+
+```
+
+
+## Spatial Differences
+
+```{r semi-count data}
+
+```
+
+
+```{r barplot}
+
+```
+
+## Temporal variability
+
+```{r 2001-2014 with 2024 data}
+temporal_data <- read.table("totals_interannual_variability.csv", header=TRUE, sep=",")
+temporal_data
+```
+
+```{r line graph}
+
+```
+
+
+
